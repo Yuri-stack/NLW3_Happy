@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-        <img src="public/images/bg.svg" alt="Principal Page" width="480">
+        <img src="public/images/Home.png" alt="Principal Page" width="240">
     <br><br>
         Happy 
 </h1>
