@@ -1,7 +1,7 @@
 #page-landing {
   background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
-  min-height: 100vh;
   text-align: center;
+  min-height: 100vh;
   display: flex;
 }
 
@@ -43,7 +43,7 @@ main h1 {
   align-items: center;
   justify-content: center;
   margin: auto;
-  transition: background 0.2ms;
+  transition: background 200ms;
   animation-delay: 250ms;
 }
 
