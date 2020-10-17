@@ -28,16 +28,20 @@
 
 ## Features
 
-Coming soon
+- 🏬 Find orphanages
+- 🏫 Register orphanages
+- 🏠 Help give children a new home 😄
 
 ## Explored and implemented concepts
 
-Coming soon
-<!-- - [ ] Basic concepts about HTML, CSS and JS -->
+- [X] Reinforcing teachings of HTML, CSS and JS
+- [X] Creating a landing page
+- [X] Using the Leaflet Map
+- [ ] Concepts about SQL
+
 ## Getting started
 
 Coming soon
-
 <!-- As this is an introductory project, there is no installation tutorial. Just open and enjoy. -->
 
 ## License
