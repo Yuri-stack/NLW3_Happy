@@ -26,6 +26,9 @@
     <a href="#">
         <img src="https://img.shields.io/badge/Language-Javascript-blue">
     </a>
+    <a href="#">
+        <img src="https://img.shields.io/badge/Template-Handlebars-blue">
+    </a>
   </p>
 
 </div>
@@ -43,6 +46,26 @@
 - [X] Using the Leaflet Map
 - [X] Reinforcing concepts about SQL
 - [X] Using SQLite
+
+## Installation
+
+<b>You need to install <a href="https://nodejs.org/en/download/">Node.JS</a> first, then run this command:</b>
+``` 
+git clone https://github.com/Yuri-stack/NLW3_Happy.git
+```
+
+<b>Install dependencies</b>
+
+```
+npm install
+```
+
+<b>Recommendations</b>
+
+<ul>
+    <li>It is recommended that you have installed Google Chrome</li>
+    <li>I recommend using VSCode as a development IDE</li>
+</ul>
 
 ## Getting started
 
