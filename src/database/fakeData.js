@@ -4,7 +4,7 @@ module.exports = [
         lat: "-27.2216106",
         lng: "-49.6468375",
         name: "Lar das Meninas",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quae deserunt ad eveniet iste numquam mollitia assumenda ratione saepe impedit quaerat ducimus rem ipsa facere, neque aliquam, vitae placeat sit.",
+        about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quae deserunt ad eveniet iste numquam mollitia assumenda ratione saepe impedit quaerat ducimus rem ipsa facere, neque aliquam, vitae placeat sit.",
         images: [
             "https://images.unsplash.com/photo-1601180964401-6e474136af83?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
 
@@ -21,7 +21,7 @@ module.exports = [
         lat: "-27.2216106",
         lng: "-49.6568375",
         name: "Lar dos Meninos",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quae deserunt ad eveniet iste numquam mollitia assumenda ratione saepe impedit quaerat ducimus rem ipsa facere, neque aliquam, vitae placeat sit.",
+        about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quae deserunt ad eveniet iste numquam mollitia assumenda ratione saepe impedit quaerat ducimus rem ipsa facere, neque aliquam, vitae placeat sit.",
         images: [
             "https://images.unsplash.com/photo-1556258707-995cd393dd8b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
 
