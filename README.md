@@ -37,7 +37,8 @@
 - [X] Reinforcing teachings of HTML, CSS and JS
 - [X] Creating a landing page
 - [X] Using the Leaflet Map
-- [ ] Concepts about SQL
+- [X] Reinforcing concepts about SQL
+- [X] Using SQLite
 
 ## Getting started
 
