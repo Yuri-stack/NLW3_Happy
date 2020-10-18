@@ -12,6 +12,10 @@
         Happy is a project developed during the 3rd edition of Next Level Week, this week we created a Web application in order to connect people and encourage them to visit orphanages. Made with HTML, CSS and Javascript.
     </p>
 </div>
+<p align="center">
+    <img src="public/images/orfanatos.png" alt="Principal Page" width="400">
+    <img src="public/images/orfanato.png" alt="Principal Page" width="400">
+</p>
 
 <div>
 
