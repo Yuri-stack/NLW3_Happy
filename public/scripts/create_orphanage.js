@@ -96,3 +96,18 @@ function toggleSelect(event){
     input.value = button.dataset.value
     
 }
+
+// function validate(event){
+
+//     const lat = req.query.lat
+//     const needsLatAndLng = false
+
+//     if(lat.value == ""){
+//         needsLatAndLng = true
+//     }
+
+//     if(needsLatAndLng){
+//         event.prevantDefault()
+//         alert('Selecione um ponto no mapa!')
+//     }
+// }

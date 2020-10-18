@@ -34,6 +34,7 @@ module.exports = {
     },
 
     async orphanages(req, res){
+
         try {
             const db = await Database
             const selectedOrphanages = await db.all("SELECT * FROM orphanages")
@@ -44,10 +45,43 @@ module.exports = {
             console.log(error)
             return res.send(`Erro no Banco de Dados.`)
         }
+
     },
 
     createOrphanage(req, res){
         return res.render('create-orphanage')
-    }
+    },
 
+    async saveOrphanage(req, res){
+
+        const fields = req.body
+
+        //Verificando se os dados recebidos estão preenchidos
+        if(Object.values(fields).includes('')){
+            return res.send('Todos os campos devem ser preenchidos')
+        }
+
+         //Salvar um Orfanato
+        try {
+            const db = await Database
+            await saveOrphanage(db, {
+                lat: fields.lat,
+                lng: fields.lng,
+                name: fields.name,
+                about: fields.about,
+                whatsapp: fields.whatsapp,
+                images: fields.images.toString(),
+                instructions: fields.instructions,
+                opening_hours: fields.opening_hours,
+                open_on_weekends: fields.open_on_weekends
+            })
+        
+            return res.redirect('/orphanages')
+            
+        } catch (error) {
+            console.log(error)
+            return res.send('Erro no banco de dados')
+        }    
+        
+    }
 }
